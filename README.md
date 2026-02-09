@@ -39,7 +39,7 @@ Follow the steps below to set up and run the UPSC Mains Answer Generator locally
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/upsc-answer-generator.git
+[git clone https://github.com/your-username/upsc-answer-generator.git](https://github.com/laleetborse/UPSC-Answer-Generator.git)
 cd upsc-answer-generator
 ```
 
