@@ -38,7 +38,7 @@ Follow the steps below to set up and run the UPSC Mains Answer Generator locally
 ---
 
 ### 1. Clone the Repository
-[git clone https://github.com/your-username/upsc-answer-generator.git](https://github.com/laleetborse/UPSC-Answer-Generator.git)
+[git clone https://github.com/laleetborse/upsc-answer-generator.git](https://github.com/laleetborse/UPSC-Answer-Generator.git)
 
 ```bash
 cd upsc-answer-generator
@@ -60,5 +60,5 @@ GEMINI_KEY=your_google_gemini_api_key_here
 ```
 ### 5. Run the Streamlit App
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```

@@ -12,10 +12,10 @@ from pydantic_ai.providers.google_gla import GoogleGLAProvider
 load_dotenv()
 
 api_key = os.getenv("GEMINI_KEY")
-
+model_name = os.getenv("MODEL_NAME")
 # Initialize model
 model = GeminiModel(
-    "gemini-2.5-flash",
+    model_name,
     provider=GoogleGLAProvider(api_key=api_key)
 )
 
